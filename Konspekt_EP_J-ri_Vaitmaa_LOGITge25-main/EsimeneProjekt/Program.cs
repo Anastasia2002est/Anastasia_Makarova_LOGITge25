@@ -658,7 +658,22 @@ namespace EsimeneProjekt //<-- nimeruum, sisaldab {} sulgude vahel konteinerit k
                 Console.WriteLine("sisesta "+k+". arv");//Tegevus koodiploki sees, kus küsitakse kasutades tsüklimuutujat, kasutajalt
                                                         //järgmist/mingindat arvu.
                 arvuMassiiv[k] = int.Parse(Console.ReadLine());//Kasutades tsüklimuutujat, täidetakse massiiv.
+
             }
-        }
+
+            string login;
+            string parool;
+            Console.WriteLine("Palun sisesta oma login");
+            login = Console.ReadLine();
+            Console.WriteLine("Ja parool");
+            parool = Console.ReadLine();
+            if (login == "Wasant" && parool == "Wasant1")
+            {
+                Console.WriteLine("Wassup, " + login);
+            }
+            else
+            {
+                Console.WriteLine("Vale login ja/või parool");
+            }
     }
 }
