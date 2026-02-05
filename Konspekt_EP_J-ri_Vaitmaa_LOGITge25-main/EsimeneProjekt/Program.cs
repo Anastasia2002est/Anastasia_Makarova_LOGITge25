@@ -661,19 +661,8 @@ namespace EsimeneProjekt //<-- nimeruum, sisaldab {} sulgude vahel konteinerit k
 
             }
 
-            string login;
-            string parool;
-            Console.WriteLine("Palun sisesta oma login");
-            login = Console.ReadLine();
-            Console.WriteLine("Ja parool");
-            parool = Console.ReadLine();
-            if (login == "Wasant" && parool == "Wasant1")
-            {
-                Console.WriteLine("Wassup, " + login);
-            }
-            else
-            {
-                Console.WriteLine("Vale login ja/või parool");
-            }
+       
+
+
     }
 }

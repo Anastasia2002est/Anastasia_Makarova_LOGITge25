@@ -61,6 +61,70 @@
             //programm kontrollib IF abil, kas  ajakulu on 35h või suurem
             //kui on suurem, kuva hoiatus "sinu mängimisele kulub peaaegu samasugune aeg nagu tavalisel inimesel töönädalas töötamisele"
             //kui on väiksem, ära tee midagi.
+            //string login;
+            //string parool;
+            //Console.WriteLine("Palun sisesta oma login");
+            //login = Console.ReadLine();
+            //Console.WriteLine("Ja parool");
+            //parool = Console.ReadLine();
+            //if (login == "Wasant" && parool == "Wasant1")
+            //{
+            //    Console.WriteLine("Wassup, " + login);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Vale login ja/või parool");
+            //}
+
+            Console.WriteLine("Palun sisesta esimene arv");
+            float arv1 = 0.0f;
+            arv1 = float.Parse(Console.ReadLine());
+            Console.WriteLine("Palun sisesta teine arv");
+            float arv2 = 0.0f;
+            arv2 = float.Parse(Console.ReadLine());
+            Console.WriteLine("Mis tüüpi tehet sa teha tahad? (valik: + - * / ^ V)");
+            string tehteTüüp = "";
+            tehteTüüp = Console.ReadLine();
+            double tulemus = 0.0d;
+            bool tehtud = true;
+            if (tehteTüüp == "+")
+            {
+                tulemus = arv1 + arv2;
+            }
+            else if (tehteTüüp == "-")
+            {
+                tulemus = arv1 - arv2;
+            }
+            else if (tehteTüüp == "*")
+            {
+                tulemus = arv1 * arv2;
+            }
+            else if (tehteTüüp == "/")
+            {
+                tulemus = arv1 / arv2;
+            }
+            else if (tehteTüüp == "^")
+            {
+                tulemus = Math.Pow(arv1, arv2);
+            }
+            else if (tehteTüüp == "V")
+            {
+                tulemus = Math.Pow(arv1, (1 / arv2));
+            }
+            else
+            {
+                Console.WriteLine("Tehtetüüp pole valitud, tehet ei sooritata.");
+                tehtud = false;
+            }
+            if (tehtud)
+            {
+                Console.WriteLine($"Tehte tulemus on: {arv1} {tehteTüüp} {arv2} = {tulemus}");
+            }
+
+
+
+
+
         }
     }
 }
