@@ -28,6 +28,22 @@
             //kui suunakood on suurem kui 5 tähte, ütle talle, 1 täht on üle
             //kui suunakoodis on 5 tähte, ütle "ahha nüüd tean kus elad"
 
+            int suunaKood = 0;
+            Console.WriteLine("Palun sisesta oma suunakood");
+            suunaKood = int.Parse(Console.ReadLine());
+            if (suunaKood > 9999 && suunaKood < 100000)
+            {
+                Console.WriteLine("Ahha nüüd teasn kus sa elad");
+            }
+            else if (suunaKood <= 9999)
+            {
+                Console.WriteLine("üks täht on puudu");
+            }
+            else 
+            {
+                Console.WriteLine("üks täht on üle");
+            }
+
             /*4. töökoht*/
             //küsi kasutajalt kas ta töötab
             //kui kasutaja vastab jah, siis ütle tubli
