@@ -794,6 +794,6 @@ namespace EsimeneProjekt //<-- nimeruum, sisaldab {} sulgude vahel konteinerit k
                 Console.WriteLine(üksSõna);     //Antud juhul, kuvatakse element välja.
             }
             //NB - Tsükli töö ei pea olema üldse seotud kontrollitava kollektsiooniga. Kollektsioon ise võib olla ainult tsüklimuutuja eesmärgil sätestatud.
-        }
+        } hihih
     }
 }
