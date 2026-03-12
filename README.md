@@ -1,2 +1,2 @@
-# KordamisYlesanded
-i make a dis
+# Konspekt_EP_Jüri_Vaitmaa_LOGITge25
+programmeerimiste aluste konspekt
