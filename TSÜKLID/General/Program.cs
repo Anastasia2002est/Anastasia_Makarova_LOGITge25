@@ -291,7 +291,7 @@
 
                     if (portfell <= 0)
                     {
-                        Console.WriteLine("Oled pankrotis MADAFAKA HUEHUEHUEHUE");
+                        Console.WriteLine("Oled pankrotis pu pu pu");
                         pankrotis = true;
                         break;
                     }
