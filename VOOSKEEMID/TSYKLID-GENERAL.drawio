@@ -1,0 +1,218 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1722" dy="1001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="ECsBSd56xi6svIvgCX_V-0" value="// #n1. &quot;Tervitus&quot;&#xa;// kirjuta programm mis,&#xa;// - küsib tsükliga kasutajalt tema eesnime&#xa;// - - küsitakse uuesti tühja sisendi korral&#xa;// - küsib kasutajalt tema keskmist nime&#xa;// - - küsitakse uuesti tühja sisendi korral&#xa;// - küsib kasutajalt tema perekonnanime&#xa;// - - küsitakse uuesti tühja sisendi korral&#xa;// - tema vanust&#xa;// - - küsitakse uuesti tühja sisendi korral&#xa;// - ning väljastab talle tervituslause, kasutades kõiki muutujaid" style="text;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="30" width="390" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ECsBSd56xi6svIvgCX_V-1" target="ECsBSd56xi6svIvgCX_V-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-1" value="Algus" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="270" y="270" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ECsBSd56xi6svIvgCX_V-2" target="ECsBSd56xi6svIvgCX_V-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-2" value="Tekita sõna-tüüpi muutuja&lt;br&gt;&quot;eesNimi&quot; kuhu omistatakse&lt;br&gt;vaikeväärtusena &quot;&quot;/string-Empty()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="295" y="505" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ECsBSd56xi6svIvgCX_V-4" target="ECsBSd56xi6svIvgCX_V-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-8" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ECsBSd56xi6svIvgCX_V-7">
+          <mxGeometry x="-0.1873" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="ECsBSd56xi6svIvgCX_V-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="1110" as="targetPoint" />
+            <mxPoint x="290.0000000000007" y="689.9999999999998" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="180" y="690" />
+              <mxPoint x="180" y="1110" />
+              <mxPoint x="395" y="1110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-13" value="EI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ECsBSd56xi6svIvgCX_V-12">
+          <mxGeometry x="0.1963" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-4" value="Kas muutuja &lt;br&gt;&quot;eesnimi&quot; on väärtuseks&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&amp;nbsp;&quot;&quot;?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="650" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ECsBSd56xi6svIvgCX_V-6" target="ECsBSd56xi6svIvgCX_V-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-6" value="Kuva kasutajale tekst&lt;br&gt;&quot;Palun sisesta oma nimi siia: &quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="800" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ECsBSd56xi6svIvgCX_V-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="970" />
+              <mxPoint x="570" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-9" value="Oota kuni kasutaja sisestab käsureale muutujasse &quot;eesNimi&quot;&lt;br&gt;omistatava andme" style="whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="335" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ECsBSd56xi6svIvgCX_V-14" target="ECsBSd56xi6svIvgCX_V-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-19" value="EI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ECsBSd56xi6svIvgCX_V-18">
+          <mxGeometry x="-0.3562" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ECsBSd56xi6svIvgCX_V-14" target="ECsBSd56xi6svIvgCX_V-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240.00000000000023" y="1670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="1300" />
+              <mxPoint x="190" y="1700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-26" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ECsBSd56xi6svIvgCX_V-22">
+          <mxGeometry x="-0.1677" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-14" value="Kas muutuja &lt;br&gt;&quot;keskmineNimi&quot; on väärtuseks midagi muud kui&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&amp;nbsp;&quot;&quot;?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="1260" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ECsBSd56xi6svIvgCX_V-15" target="ECsBSd56xi6svIvgCX_V-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-15" value="Tekita sõna-tüüpi muutuja&lt;br&gt;&quot;keskmineNimi&quot; kuhu omistatakse&lt;br&gt;vaikeväärtusena &quot;&quot;/string-Empty()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="295" y="1120" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ECsBSd56xi6svIvgCX_V-17" target="ECsBSd56xi6svIvgCX_V-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-17" value="Kuva kasutajale tekst&lt;br&gt;&quot;Palun sisesta keskmine&lt;br&gt;nimi siia: &quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="295" y="1390" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ECsBSd56xi6svIvgCX_V-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="1230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="1560" />
+              <mxPoint x="590" y="1230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-20" value="Oota kuni kasutaja sisestab käsureale muutujasse &quot;keskmineNimi&quot;&lt;br&gt;omistatava andme" style="whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="1520" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ECsBSd56xi6svIvgCX_V-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="412.5" y="1890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-23" value="Tekita sõna-tüüpi muutuja&lt;br&gt;&quot;perekonnaNimi&quot; kuhu omistatakse&lt;br&gt;vaikeväärtusena &quot;&quot;/string-Empty()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="295" y="1700" width="235" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ECsBSd56xi6svIvgCX_V-25" target="ECsBSd56xi6svIvgCX_V-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-30" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ECsBSd56xi6svIvgCX_V-29">
+          <mxGeometry x="-0.1519" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ECsBSd56xi6svIvgCX_V-25" target="ECsBSd56xi6svIvgCX_V-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="1930" />
+              <mxPoint x="200" y="2465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-25" value="Kas muutujas &quot;perekonnaNimi&quot;&lt;br&gt;on väärtuses &quot;&quot;?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="1890" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ECsBSd56xi6svIvgCX_V-28" target="ECsBSd56xi6svIvgCX_V-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-28" value="Kuva kasutajale tekst&lt;br&gt;&quot;Palun sisesta ka oma perekonnanimi siia: &quot;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="2060" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ECsBSd56xi6svIvgCX_V-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="1840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="2280" />
+              <mxPoint x="590" y="1840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-31" value="Oota kuni kasutaja sisestab&lt;br&gt;käsureale muutujasse&lt;br&gt;&quot;perekonnaNimi&quot; omistatava&lt;br&gt;andme." style="whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="2240" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ECsBSd56xi6svIvgCX_V-34" target="ECsBSd56xi6svIvgCX_V-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-34" value="Tekita täisarvu-tüüpi muutuja&lt;br&gt;&quot;minuVanus&quot; kuhu omistatakse&lt;br&gt;vaikeväärtusena arv 0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="305" y="2420" width="235" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ECsBSd56xi6svIvgCX_V-36" target="ECsBSd56xi6svIvgCX_V-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-40" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ECsBSd56xi6svIvgCX_V-39">
+          <mxGeometry x="-0.17" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ECsBSd56xi6svIvgCX_V-36" target="ECsBSd56xi6svIvgCX_V-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="2650" />
+              <mxPoint x="220" y="3190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-36" value="Kas muutujas&lt;div&gt;&quot;minuVanus&quot; on väärtus&lt;/div&gt;&lt;div&gt;väiksem kui 1?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="317.5" y="2600" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ECsBSd56xi6svIvgCX_V-38" target="ECsBSd56xi6svIvgCX_V-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-38" value="Kuva kasutajale tekst&lt;div&gt;&quot;Palun sisesta kõige&lt;br&gt;lõpuks ka oma vanus; &quot;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="312.5" y="2800" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ECsBSd56xi6svIvgCX_V-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="2650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="3050" />
+              <mxPoint x="600" y="2650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-41" value="Oota kuni kasutaja sisestab&lt;br&gt;käsureale int-Parse() abil&lt;div&gt;teisendav muutujasse &quot;minuVanus&quot;&lt;/div&gt;&lt;div&gt;omistatav arvväärtus&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="312.5" y="3010" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ECsBSd56xi6svIvgCX_V-44" target="ECsBSd56xi6svIvgCX_V-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-44" value="&lt;div&gt;Kuva kasutajale tekst kasutades&lt;/div&gt;&lt;div&gt;väärtusi muutujatest&lt;br&gt;&quot;eenNimi&quot;,&quot;perekonnaNimi&quot;,&quot;keskmineNiimi&quot;&lt;/div&gt;&lt;div&gt;ja &quot;minuVanus&quot; ning kuva kasutajale&lt;br&gt;tekst koos nende muutujale&lt;br&gt;väärtustega &quot;Tere päevast {eesnimi} {perekonnanimi}! või kutsun sind {keskminenimi}? Oled tublisti kasvanud, oled {minuVanus}-aastane.&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="3220" width="347.5" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsBSd56xi6svIvgCX_V-46" value="Lõpp" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="333.75" y="3530" width="260" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,76 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1900" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="A6JxASpYLyMJrQ3idXcg-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="A6JxASpYLyMJrQ3idXcg-0" target="A6JxASpYLyMJrQ3idXcg-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A6JxASpYLyMJrQ3idXcg-0" value="Algus" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="90" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="A6JxASpYLyMJrQ3idXcg-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="A6JxASpYLyMJrQ3idXcg-1" target="A6JxASpYLyMJrQ3idXcg-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A6JxASpYLyMJrQ3idXcg-1" value="Kuva kasutajale tekst &quot;Palun sisesta korrektne nime&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="285" y="270" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="A6JxASpYLyMJrQ3idXcg-12" value="Ülesanne 1&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="10" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A6JxASpYLyMJrQ3idXcg-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="A6JxASpYLyMJrQ3idXcg-13" target="A6JxASpYLyMJrQ3idXcg-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A6JxASpYLyMJrQ3idXcg-13" value="Korrektne nimi peaks olema &quot;Nipitiri&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="460" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="A6JxASpYLyMJrQ3idXcg-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="A6JxASpYLyMJrQ3idXcg-15" target="A6JxASpYLyMJrQ3idXcg-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A6JxASpYLyMJrQ3idXcg-15" value="Oota kuni kasutaja sisestab käsureale oma andme mis omistatakse muutujasse &quot;Nipitiri&quot;" style="whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="640" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="A6JxASpYLyMJrQ3idXcg-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="A6JxASpYLyMJrQ3idXcg-17" target="A6JxASpYLyMJrQ3idXcg-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A6JxASpYLyMJrQ3idXcg-23" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A6JxASpYLyMJrQ3idXcg-22">
+          <mxGeometry x="0.0828" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A6JxASpYLyMJrQ3idXcg-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="A6JxASpYLyMJrQ3idXcg-17" target="A6JxASpYLyMJrQ3idXcg-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A6JxASpYLyMJrQ3idXcg-28" value="EI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A6JxASpYLyMJrQ3idXcg-27">
+          <mxGeometry x="-0.1445" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A6JxASpYLyMJrQ3idXcg-17" value="Kas kasutaja poolt on sisestatud korrektne nime?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="820" width="220" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="A6JxASpYLyMJrQ3idXcg-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="A6JxASpYLyMJrQ3idXcg-21" target="A6JxASpYLyMJrQ3idXcg-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A6JxASpYLyMJrQ3idXcg-21" value="Kuva kasutajale tekst: &quot;Tere tulemast Nipitiri&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="831.88" width="230" height="81.25" as="geometry" />
+        </mxCell>
+        <mxCell id="A6JxASpYLyMJrQ3idXcg-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.455;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="A6JxASpYLyMJrQ3idXcg-26" target="A6JxASpYLyMJrQ3idXcg-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A6JxASpYLyMJrQ3idXcg-26" value="Kuva kasutajale tekst: &quot;U ARE NOT NIPITIRI, GO AWAY FROM COMPUTER&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-10" y="840" width="220" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="A6JxASpYLyMJrQ3idXcg-31" value="Lõpp" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="660" y="970" width="210" height="103.76" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

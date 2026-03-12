@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 using System.Text; //<-- enne nimeruumi, viidatakse selles failis/klassis kasutatud pakettidele/moodulitele ja süsteemi muudele osadele
 //süsteemi muuks osaks võib olla kas operatsioonisüsteemi võimalused või ka teised projektid. Teised projektid viidatakse tavaliselt solution (.sln)
 //failist.
@@ -696,6 +697,54 @@ namespace EsimeneProjekt //<-- nimeruum, sisaldab {} sulgude vahel konteinerit k
             string pool2 = piparmündiTupla.Item2; // seal asetame muutujasse "pool2" valitud tuplest teise objekti
 
 
+            /*  5 - STRUKTUUR */
+            // struct/Struktuur on komposiitandmetüüp, mis sarnaneb klassiga sellepoolest, et erinevalt kõikidest teistest andmetüüpidest, saab
+            // struktuur sisaldada meetodeid ning omadusi. Sarnaselt klassiga, on Struct andmetüübil ka konstruktor, mis ütleb mis selle
+            // struktuuri sees on.
+
+            // Struct anatoomia:
+            // A - Structi jaoks vajalik nimeruumi tekitamine, mis sarnaselt meetodile vajab juurdepääsu modifikaatorit (A.1), andmetüübi nime (A.2) ja
+            //      sätestust et tegu on structiga (A.3). Sätestusele järgneb koodiplokk/konteiner
+            // B - Konstruktor (on sama nagu klassil) ning  defineerib ära spetsiaalse meetodi mis ütleb kuidas *see* struct instantsieeritakse.
+            //      Konstruktorit kasutatakse antud juhul siis structis olevatele väljadele mingite algandmete sisestuseks. Konstruktoreid saab olla mitu.
+            //      "Kordinaat" structil on kaks konstruktorit, esimene kolmemõõtmeline, teine kahemõõtmeline (B.1)
+            // C - Andmeväljad ülevad ära, millised andmed uuel structil on. Olenavalt konstruktorist võib andmevälju olla rohkem või vähem, voi
+            //      omada täielikult erinevaid välju.
+            // D - Struktuuri omadused, nende kaudu saab kasutatavas koodis selle struktuuri andmeid kätte. Adresseeritakse nagu meetodeid teistest
+            //      andmetüüpidest punkti abil, ning peale punkti saab valida soovitud välja.
+            // E - Struktuuris asuvad meetodid, saab kirjutada üle overrideiga vaikemeetodeid või saab omada struktuurile omaseid meetodeid
+
+
+    //A.1   A.2   A.3
+            public struct Kordinaat //A
+        {
+            public Kordinaat(decimal x, decimal y, decimal z) //B
+            {
+                decimal X = x; //C selles konstruktoris on kolm andmevälja
+                decimal Y = y;
+                decimal Z = z;
+            }
+            
+            public Kordinaat(decimal x, decimal y) // B.1
+            {
+                decimal X = x; //C selles konstruktoris on kolm andmevälja
+                decimal Y = y;
+            } 
+            
+            public double X { get; } //D - struktuuri omadused
+            public double Y { get; }
+            public double Z { get; }
+            //E selle "Kordinaat" struct meetodid:
+            public override string ToString() 
+            {
+                return $"({X},{Y},{Z})";
+            }
+            public void HelloWorld()
+            {
+                Console.WriteLine("Tere maailm.");
+            }
+        }
+            
 
 
 
