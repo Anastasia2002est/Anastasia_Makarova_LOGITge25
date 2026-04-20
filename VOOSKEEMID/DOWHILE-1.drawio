@@ -1,0 +1,70 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1044" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="cW7_NA2th8Stz0W6yfVM-0" value="// 1. &quot;arvuta kuni summani&quot;&#xa; // tee muutuja &quot;täisarv&quot; mille sees on täisarv 0&#xa; // kirjuta do while tsükkel 😊&#xa; // tsükli tegevusena lahuta muutujast &quot;täisarv&quot; maha 2&#xa; // ja kuva muutuja &quot;täisarv&quot; välja&#xa; // -&gt; do while tsükli tingimuseks kirjuta kontroll, mis kontrollib kas muutujas &quot;täisarv&quot; on arv miinuses rohkem kui -31&#xa; // peale tsüklit kuva sõnum &quot;tsükkel lõppes&quot;" style="text;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="730" y="50" width="560" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cW7_NA2th8Stz0W6yfVM-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cW7_NA2th8Stz0W6yfVM-1" target="cW7_NA2th8Stz0W6yfVM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cW7_NA2th8Stz0W6yfVM-1" value="Algus" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cW7_NA2th8Stz0W6yfVM-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cW7_NA2th8Stz0W6yfVM-2" target="cW7_NA2th8Stz0W6yfVM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cW7_NA2th8Stz0W6yfVM-2" value="tekita muutuja &quot;täisArv&quot; kuhu&lt;br&gt;omistame vaikeväärtusena&lt;br&gt;täisarvu 0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="260" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cW7_NA2th8Stz0W6yfVM-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cW7_NA2th8Stz0W6yfVM-4" target="cW7_NA2th8Stz0W6yfVM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cW7_NA2th8Stz0W6yfVM-4" value="Omista muutujale &quot;täisarv&quot; uus&lt;br&gt;väärtus, mille eelmisest&lt;br&gt;väärtusest lahutatakse maga 2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="430" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cW7_NA2th8Stz0W6yfVM-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cW7_NA2th8Stz0W6yfVM-6" target="cW7_NA2th8Stz0W6yfVM-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cW7_NA2th8Stz0W6yfVM-6" value="Kuva kasutajale muutujas&lt;br&gt;&quot;täisArv&quot; olev väärtus" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="580" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cW7_NA2th8Stz0W6yfVM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cW7_NA2th8Stz0W6yfVM-8" target="cW7_NA2th8Stz0W6yfVM-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="795" />
+              <mxPoint x="540" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cW7_NA2th8Stz0W6yfVM-11" value="EI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cW7_NA2th8Stz0W6yfVM-10">
+          <mxGeometry x="0.002" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cW7_NA2th8Stz0W6yfVM-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cW7_NA2th8Stz0W6yfVM-8" target="cW7_NA2th8Stz0W6yfVM-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cW7_NA2th8Stz0W6yfVM-16" value="jah" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cW7_NA2th8Stz0W6yfVM-15">
+          <mxGeometry x="-0.2" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cW7_NA2th8Stz0W6yfVM-8" value="Kas muutujas &quot;täisArv&quot; &lt;br&gt;on väärtus&lt;br&gt;väiksem kui -31" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="740" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cW7_NA2th8Stz0W6yfVM-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cW7_NA2th8Stz0W6yfVM-14" target="cW7_NA2th8Stz0W6yfVM-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cW7_NA2th8Stz0W6yfVM-14" value="Kuva kasutajale tekst&lt;div&gt;&quot;tsükkel lõpetas&quot;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="920" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cW7_NA2th8Stz0W6yfVM-19" value="lõpp" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="1090" width="180" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
