@@ -6,27 +6,28 @@
         {
             Console.WriteLine("ÜLESANNE 1:");
 
-            int inimeseVanus = 0;
+            int inimeseVanus;
 
             do
             {
                 Console.WriteLine("Kui vana sa oled?");
                 inimeseVanus = int.Parse(Console.ReadLine());
             }
-            while (inimeseVanus > 0);
+            while (inimeseVanus <= 0);
 
             Console.WriteLine("---=== Vajuta enter et näha järgmist ülesannet ===---");
             Console.ReadLine();
 
             Console.WriteLine("ÜLESANNE 2:");
 
-            int sisestatudAasta = 1000;
+            int sisestatudAasta;
 
-            while (sisestatudAasta > 999 && sisestatudAasta < 2026)
+            do
             {
                 Console.WriteLine("Palun sisesta aastaarv:");
                 sisestatudAasta = int.Parse(Console.ReadLine());
             }
+            while (sisestatudAasta < 1000 || sisestatudAasta > 2025);
 
             Console.WriteLine("---=== Vajuta enter et näha järgmist ülesannet ===---");
             Console.ReadLine();
@@ -46,7 +47,7 @@
 
             for (int indeks = 0; indeks < puuviljadeNimekiri.Count; indeks++)
             {
-                Console.WriteLine($"{indeks + 1}) {puuviljadeNimekiri.ElementAt(indeks)}");
+                Console.WriteLine($"{indeks + 1}) {puuviljadeNimekiri[indeks]}");
             }
 
             Console.WriteLine("---=== Vajuta enter et näha järgmist ülesannet ===---");
