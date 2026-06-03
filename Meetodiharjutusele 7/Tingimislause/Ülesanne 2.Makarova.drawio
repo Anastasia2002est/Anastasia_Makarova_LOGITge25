@@ -1,0 +1,68 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="2037" dy="1183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="Gt7c_olczuhMgbjyc2V_-2" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gt7c_olczuhMgbjyc2V_-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Gt7c_olczuhMgbjyc2V_-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gt7c_olczuhMgbjyc2V_-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Algus" vertex="1">
+          <mxGeometry height="160" width="240" x="270" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Gt7c_olczuhMgbjyc2V_-10" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gt7c_olczuhMgbjyc2V_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Gt7c_olczuhMgbjyc2V_-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gt7c_olczuhMgbjyc2V_-3" parent="WIyWlLk6GJQsqaUBKTNV-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" value="Kuva kasutajale tekst &quot;Kas sulle meeldib vaniljejäätis?&quot;" vertex="1">
+          <mxGeometry height="140" width="280" x="250" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="Gt7c_olczuhMgbjyc2V_-16" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gt7c_olczuhMgbjyc2V_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Gt7c_olczuhMgbjyc2V_-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gt7c_olczuhMgbjyc2V_-9" parent="WIyWlLk6GJQsqaUBKTNV-1" style="whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" value="Oota kuni kasutaja sisestab vastuse" vertex="1">
+          <mxGeometry height="120" width="140" x="320" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="Gt7c_olczuhMgbjyc2V_-18" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gt7c_olczuhMgbjyc2V_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Gt7c_olczuhMgbjyc2V_-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gt7c_olczuhMgbjyc2V_-19" connectable="0" parent="Gt7c_olczuhMgbjyc2V_-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="JAH" vertex="1">
+          <mxGeometry relative="1" x="-0.2667" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gt7c_olczuhMgbjyc2V_-23" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gt7c_olczuhMgbjyc2V_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Gt7c_olczuhMgbjyc2V_-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gt7c_olczuhMgbjyc2V_-24" connectable="0" parent="Gt7c_olczuhMgbjyc2V_-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="EI" vertex="1">
+          <mxGeometry relative="1" x="-0.15" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gt7c_olczuhMgbjyc2V_-15" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" value="Kas kasutaja poolt sisestatud vastus &quot;Jah&quot;?" vertex="1">
+          <mxGeometry height="120" width="160" x="310" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="Gt7c_olczuhMgbjyc2V_-21" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gt7c_olczuhMgbjyc2V_-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Gt7c_olczuhMgbjyc2V_-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gt7c_olczuhMgbjyc2V_-17" parent="WIyWlLk6GJQsqaUBKTNV-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" value="Kuva kasutajale tekst: &quot;Vanilla ninja jäätis on most basic&quot;" vertex="1">
+          <mxGeometry height="80" width="180" x="300" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="Gt7c_olczuhMgbjyc2V_-20" parent="WIyWlLk6GJQsqaUBKTNV-1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" value="Lõpp" vertex="1">
+          <mxGeometry height="110" width="260" x="260" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="Gt7c_olczuhMgbjyc2V_-26" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gt7c_olczuhMgbjyc2V_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Gt7c_olczuhMgbjyc2V_-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="1205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gt7c_olczuhMgbjyc2V_-22" parent="WIyWlLk6GJQsqaUBKTNV-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" value="Kuva kasutajale tekst: &quot;Vähemalt pole basic maitse sul&quot;" vertex="1">
+          <mxGeometry height="140" width="220" x="20" y="770" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
